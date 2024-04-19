@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f8f8f8; /* Cor de fundo geral */
 }
 
 header {
@@ -36,6 +37,10 @@ section {
 
 .filme, .serie {
     text-align: center;
+    background-color: #fff; /* Cor de fundo dos filmes e séries */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 footer {
