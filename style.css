@@ -1,20 +1,41 @@
-.container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 20px;
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #F2F2F2; /* Cor de fundo geral */
+    --cor-fundo-principal: #EFEFEF; /* Cor de fundo da seção principal */
+    --cor-fundo-filme: #D8D8D8; /* Cor de fundo da seção de filmes */
 }
 
-.combo img {
-    width: 200px; /* Ajuste conforme necessário */
-    height: auto;
-    transition: transform 0.3s;
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+.principal {
+    background-color: var(--cor-fundo-principal); /* Cor de fundo da seção principal */
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
 }
 
 .filmes {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 20px;
+    margin-top: 20px;
+    background-color: var(--cor-fundo-filme); /* Cor de fundo da seção de filmes */
+    padding: 20px;
 }
 
 .filme {
@@ -49,3 +70,4 @@
 .filme:hover .descricao {
     opacity: 1;
 }
+
