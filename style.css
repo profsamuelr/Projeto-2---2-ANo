@@ -2,14 +2,14 @@
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
-    --cor-de-fundo: #F2F2F2; /* Cor de fundo geral */
+    --cor-de-fundo: #272121; /* Cor de fundo geral */
     --cor-fundo-principal: #EFEFEF; /* Cor de fundo da seção principal */
     --cor-fundo-filme: #D8D8D8; /* Cor de fundo da seção de filmes */
 }
 
 body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
+    background-color: black;
+    color: white;
 }
 
 .principal {
