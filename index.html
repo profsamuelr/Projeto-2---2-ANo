@@ -1,41 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
-    <title>Alura Plus</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Streaming</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <section class="principal container">
-        <h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
-        <img src="images-removebg-preview.png" alt="O combo+ é a junção do alura+ e o alura língua">
-        <div class="filmes">
+    <header>
+        <h1>Meu Streaming</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#filmes">Filmes</a></li>
+                <li><a href="#series">Séries</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bem-vindo ao Meu Streaming</h2>
+        <p>Descubra uma vasta seleção de filmes e séries para assistir online, quando e onde quiser.</p>
+    </section>
+
+    <section id="filmes">
+        <h2>Filmes em Destaque</h2>
+        <div class="grid-container">
+            <!-- Aqui você pode adicionar imagens e títulos de filmes -->
             <div class="filme">
-                <img src="images.jpeg" alt="Filme 1">
-                <div class="descricao">Descrição do Filme 1</div>
+                <img src="filme1.jpg" alt="Filme 1">
+                <h3>Filme 1</h3>
             </div>
             <div class="filme">
-                <img src="img/filme2.png" alt="Filme 2">
-                <div class="descricao">Descrição do Filme 2</div>
+                <img src="filme2.jpg" alt="Filme 2">
+                <h3>Filme 2</h3>
             </div>
-            <div class="filme">
-                <img src="img/filme3.png" alt="Filme 3">
-                <div class="descricao">Descrição do Filme 3</div>
-            </div>
-            <div class="filme">
-                <img src="img/filme4.png" alt="Filme 4">
-                <div class="descricao">Descrição do Filme 4</div>
-            </div>
-            <div class="filme">
-                <img src="img/filme5.png" alt="Filme 5">
-                <div class="descricao">Descrição do Filme 5</div>
-            </div>
+            <!-- Adicione mais filmes conforme necessário -->
         </div>
     </section>
+
+    <section id="series">
+        <h2>Séries em Destaque</h2>
+        <div class="grid-container">
+            <!-- Aqui você pode adicionar imagens e títulos de séries -->
+            <div class="serie">
+                <img src="serie1.jpg" alt="Série 1">
+                <h3>Série 1</h3>
+            </div>
+            <div class="serie">
+                <img src="serie2.jpg" alt="Série 2">
+                <h3>Série 2</h3>
+            </div>
+            <!-- Adicione mais séries conforme necessário -->
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Envie-nos uma mensagem para obter mais informações sobre nossos serviços.</p>
+        <form>
+            <input type="text" placeholder="Seu nome">
+            <input type="email" placeholder="Seu e-mail">
+            <textarea placeholder="Sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Meu Streaming. Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>
-
